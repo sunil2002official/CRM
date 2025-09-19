@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: CRM
+  datasource:
+    url: jdbc:postgresql://dpg-d36gdejuibrs739b8o50-a.oregon-postgres.render.com:5432/crmpro
+    username: crmpro_user
+    password: WAfUauPtQLSxNdyQkffLP40osZ21x2oB
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+eureka:
+  instance:
+    hostname: localhost
